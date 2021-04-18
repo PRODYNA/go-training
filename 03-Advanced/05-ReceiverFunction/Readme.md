@@ -54,11 +54,11 @@ func (p *Point) SetX(x int) {
 Correct the Test for setting the name of the struct with a receiver function.
 
 
-# Tips
+# Pro Tips
 
 ## Location of receiver functions
 A Receiver Function can be located in a different go-File, but has to be in the same package
 
-This is used in the famous stringer generator. 
+This is used in the famous stringer generator to generate a toString() like behavior.
 
 See https://pkg.go.dev/golang.org/x/tools/cmd/stringer for more information

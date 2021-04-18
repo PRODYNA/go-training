@@ -61,3 +61,23 @@ func CreatePerson(name string) Person {
 # Excercise
 
 Enhance the struct 'Person' with the Address and fill the values, so the test runs properly.
+
+
+# Pro Tips
+
+## Object inheritance
+
+Its possible to derive structs and achieve an object oriented behavior.
+By using the Identified struct inside Person without an identifier, all public Fields and Receiver-Functions
+of the Identified struct are available in the Person struct.
+
+```golang
+type Identified struct {
+    Id string
+}
+
+type Person struct {
+    Identified
+    Name string
+}
+```
