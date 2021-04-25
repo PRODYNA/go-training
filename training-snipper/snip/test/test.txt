@@ -1,0 +1,7 @@
+line1
+
+// SNIP START
+going to be cut out
+// SNIP END
+
+line2
