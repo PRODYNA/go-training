@@ -5,6 +5,8 @@ import (
 	"math"
 )
 
+type t string
+
 func main() {
 
 	x := 12
@@ -16,4 +18,10 @@ func main() {
 	for _, r := range s {
 		fmt.Printf("%c", r)
 	}
+
+	st := "test"
+
+
+	fmt.Printf("%s", t(st))
+
 }

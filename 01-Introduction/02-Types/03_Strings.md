@@ -27,6 +27,20 @@ if s == "test" {
 ```
 
 
+## Appending
+
+Appending strings in go is done by the + operator.
+You can use buffers for better performance
+
+```golang
+
+var name string
+
+name = "John"
+name = name + " Doe"
+
+```
+
 ## Iterating over characters (runes) 
 
 Converting the rune with Printf

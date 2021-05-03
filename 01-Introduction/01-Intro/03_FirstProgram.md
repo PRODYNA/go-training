@@ -7,10 +7,10 @@
 
 * Run  ```go mod init "github.com/myorg/repo/first"```
 * Open an editor and create a file named main.go
-* Add package line aith package "main"
+* Add package line with package "main"
 * Write a main function
 * Compile it with ```go build main.go```
-* Run ```main```
+* Run ```./main```
 
 or
 
