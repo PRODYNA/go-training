@@ -5,6 +5,7 @@
 * History
 * Setup
 * Tools
+* Packages
 
 # Variables and Types
 
@@ -30,7 +31,7 @@
 * Slices
 * Maps
 * Structs
-* Functions  
+* Build-In-Functions
     * make
     * append
     * len

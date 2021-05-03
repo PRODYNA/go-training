@@ -1,4 +1,4 @@
-package _05_ReceiverFunction
+package _3_Receiver_Functions
 
 type Person struct {
 	Firstname string

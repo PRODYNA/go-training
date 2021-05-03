@@ -1,4 +1,4 @@
-package _05_Structs
+package _8_Structs
 
 import (
 	"fmt"
