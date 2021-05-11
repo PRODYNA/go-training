@@ -23,13 +23,13 @@
 # Fundamentals I
 
 * Testing
-* Conditions
-* Loops
-* Range
-* Switch
-* Arrays
-* Slices
-* Maps
+* Conditions ([cmanios](https://github.com/cmanios))
+* Loops ([cmanios](https://github.com/cmanios))
+* Range ([cmanios](https://github.com/cmanios))
+* Switch ([cmanios](https://github.com/cmanios))
+* Arrays ([cmanios](https://github.com/cmanios))
+* Slices ([cmanios](https://github.com/cmanios))
+* Maps ([cmanios](https://github.com/cmanios))
 * Structs
 * Build-In-Functions
     * make
