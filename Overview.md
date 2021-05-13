@@ -22,7 +22,7 @@
    
 # Fundamentals I
 
-* Testing
+* Testing ([fratschi](https://github.com/fratschi))
 * Conditions ([cmanios](https://github.com/cmanios))
 * Loops ([cmanios](https://github.com/cmanios))
 * Range ([cmanios](https://github.com/cmanios))
@@ -30,7 +30,7 @@
 * Arrays ([cmanios](https://github.com/cmanios))
 * Slices ([cmanios](https://github.com/cmanios))
 * Maps ([cmanios](https://github.com/cmanios))
-* Structs
+* Structs ([fratschi](https://github.com/fratschi))
 * Build-In-Functions ([fratschi](https://github.com/fratschi))
     * make ([fratschi](https://github.com/fratschi))
     * append ([fratschi](https://github.com/fratschi))
