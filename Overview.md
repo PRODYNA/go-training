@@ -2,24 +2,24 @@
 
 # Introduction
 
-* History
-* Setup
-* Tools
-* Packages
+* Intro ([fratschi](https://github.com/fratschi))
+* Basic Tools ([fratschi](https://github.com/fratschi))
+* First Program ([fratschi](https://github.com/fratschi))
+* Packages ([fratschi](https://github.com/fratschi))
 
 # Variables and Types
 
-* Variables
-* Pointers
+* Variables ([fratschi](https://github.com/fratschi)) 
+* Pointers ([fratschi](https://github.com/fratschi))
 * Types
-  * Boolean
-  * String
-  * Integer
-  * Float
-  * Constants
-  * Iota
-  * Type Conversion
-    
+  * Boolean ([fratschi](https://github.com/fratschi))
+  * String ([fratschi](https://github.com/fratschi)) 
+  * Integer ([fratschi](https://github.com/fratschi)) 
+  * Float ([fratschi](https://github.com/fratschi))
+  * Constants ([fratschi](https://github.com/fratschi))
+  * Iota ([fratschi](https://github.com/fratschi))
+  * Type Conversion ([fratschi](https://github.com/fratschi))
+   
 # Fundamentals I
 
 * Testing
@@ -31,15 +31,15 @@
 * Slices ([cmanios](https://github.com/cmanios))
 * Maps ([cmanios](https://github.com/cmanios))
 * Structs
-* Build-In-Functions
-    * make
-    * append
-    * len
-    * cap
-    * new
-    * delete
-    * copy
-    * close
+* Build-In-Functions ([fratschi](https://github.com/fratschi))
+    * make ([fratschi](https://github.com/fratschi))
+    * append ([fratschi](https://github.com/fratschi))
+    * len ([fratschi](https://github.com/fratschi))
+    * cap ([fratschi](https://github.com/fratschi))
+    * new ([fratschi](https://github.com/fratschi))
+    * delete ([fratschi](https://github.com/fratschi))
+    * copy ([fratschi](https://github.com/fratschi))
+    * close ([fratschi](https://github.com/fratschi))
     
 # Fundamentals II
 

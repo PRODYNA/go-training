@@ -1,7 +1,7 @@
 # Strings and Runes
 
 Go has a built in type for strings. A string in Go cannot be null.
-A string consists of runes.
+A string consists of runes, a funny name for characters...
 
 
 ```golang
@@ -36,8 +36,8 @@ You can use buffers for better performance
 
 var name string
 
-name = "John"
-name = name + " Doe"
+name = "Go"
+name = name + " is cool"
 
 ```
 
@@ -54,7 +54,7 @@ for _, r := range s {
 
 ```
 
-Converting the rune with string() type conversion
+Converting the rune with the string() type conversion
 ```golang
 
 s := "test"
@@ -64,3 +64,17 @@ for _, r := range s {
 }
 
 ```
+
+## Pro Tips
+
+* A rune in go is nothing special, it's a value of type int32
+
+See bultin.go
+
+```golang
+
+type rune = int32
+
+```
+
+
