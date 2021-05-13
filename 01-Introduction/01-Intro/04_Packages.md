@@ -7,9 +7,9 @@ There are some difference between Go and Java Packages
 
 * Packages should be named with modules as existing URLs
 * Only the last path element of a package is the qualifier
-* Packages can be imported with an underscore without using anything of it
-* Unused Imports are compile errors
-* Packages can be renamed 
+* Packages can be imported with an underscore without using anything (Init function is important) of it
+* Unused Imports are compile-errors
+* Packages can be renamed if there are duplicate names
   * In the import statement in the go file
   * In the go.mod file  
 * Packages don't need a comma or semicolon for the import  

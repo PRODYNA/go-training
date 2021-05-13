@@ -56,8 +56,10 @@
 
 # Applied Go
 
-* Json Parsing
-* HTTP Server
-* Date and Time
-* Mocking
-* TODO
+* Json Parsing ([fratschi](https://github.com/fratschi))
+* HTTP Server ([fratschi](https://github.com/fratschi))
+* Date and Time ([fratschi](https://github.com/fratschi))
+* Mocking ([fratschi](https://github.com/fratschi))
+* Reverse Proxy ([fratschi](https://github.com/fratschi))
+* Port Forwarding ([fratschi](https://github.com/fratschi))
+

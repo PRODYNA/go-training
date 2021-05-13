@@ -4,7 +4,7 @@ Go has some builtin functions to make programming easy when no generics are avai
 
 ## make
 
-The make function creates instances of complex types and return a pointer of the instance
+The make function creates instances of complex types and returns a *value* of the requested type
 
 ```golang
 m := make(map[string]*Request)
@@ -46,7 +46,7 @@ Thats very useful when you deal with huge slices.
 
 ## new
 
-The new function creates a new instance of a value and return a pointer to the value
+The new function creates a new instance of a value and returns a pointer to the value
 
 ```golang
 s := new(string)
@@ -58,6 +58,7 @@ Keep in mind that the value is not initialized with some values
 ## delete
 
 Delete removes a value from a map
+
 ```golang
 m := make(map[string]string)
 m["x"] = "y"
@@ -78,8 +79,8 @@ func copy(dst, src []Type) int
 a := []string{"x"}
 b := []string{"y"}
 n := copy(b, a)
-// b is now b,a
-// n is now 1
+// b is now "x"
+// n is 1
 ```
 
 ## close
