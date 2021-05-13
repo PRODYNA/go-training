@@ -1,12 +1,12 @@
 
 # Structs
 
-In go, structs are used to structure data. 
+In go, structs are used to structure data.
 
 The fields and the struct itselfs are named like this
 
 - **public** Uppercase first letter
-- **private** Lowercase first letter
+- **private/package** Lowercase first letter
 
 Example of a simple struct
 
@@ -67,7 +67,7 @@ Enhance the struct 'Person' with the Address and fill the values, so the test ru
 
 ## Object inheritance
 
-Its possible to derive structs and achieve an object oriented behavior.
+It's possible to derive structs and achieve an object-oriented behavior.
 By using the Identified struct inside Person without an identifier, all public Fields and Receiver-Functions
 of the Identified struct are available in the Person struct.
 
