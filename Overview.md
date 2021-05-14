@@ -43,15 +43,15 @@
     
 # Fundamentals II
 
-* Functions
-* Defer
-* Receiver Functions
-* Anonymous Functions
+* Functions ([fratschi](https://github.com/fratschi))
+* Defer ([fratschi](https://github.com/fratschi))
+* Receiver Functions ([fratschi](https://github.com/fratschi))
+* Anonymous Functions ([fratschi](https://github.com/fratschi))
 * Errors
-* Interfaces
+* Interfaces 
 * Panic
 * Recover
-* Channels
+* Channels 
 * Concurrency
 
 # Applied Go
