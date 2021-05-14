@@ -47,10 +47,10 @@
 * Defer ([fratschi](https://github.com/fratschi))
 * Receiver Functions ([fratschi](https://github.com/fratschi))
 * Anonymous Functions ([fratschi](https://github.com/fratschi))
-* Errors
-* Interfaces 
-* Panic
-* Recover
+* Interfaces ([fratschi](https://github.com/fratschi))
+* Errors ([fratschi](https://github.com/fratschi))
+* Panic ([fratschi](https://github.com/fratschi))
+* Recover ([fratschi](https://github.com/fratschi))
 * Channels 
 * Concurrency
 

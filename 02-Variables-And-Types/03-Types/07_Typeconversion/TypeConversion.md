@@ -43,3 +43,13 @@ fmt.Printf("%s", t(st))
 
 
 ```
+
+Go can cast to specific types. But you have to be sure or check the type before you do any cast.
+
+```golang
+
+err := DoSomeBusinessLogic()
+
+myerror := err.(MyError)
+
+```
