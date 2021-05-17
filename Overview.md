@@ -51,8 +51,8 @@
 * Errors ([fratschi](https://github.com/fratschi))
 * Panic ([fratschi](https://github.com/fratschi))
 * Recover ([fratschi](https://github.com/fratschi))
-* Channels 
-* Concurrency
+* Channels ([cmanios](https://github.com/cmanios))
+* Concurrency ([cmanios](https://github.com/cmanios))
 
 # Applied Go
 
