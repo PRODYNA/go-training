@@ -55,7 +55,7 @@ func main() {
 
 ## Where is "while" or "Do-while"?
 
-There is not `while` or `do - while`. Go has only `for` which can act like `while` or `do - while`.
+There is no `while` or `do - while`. Go has only `for` which can act like `while` or `do - while`.
 
 ```golang
 package main
