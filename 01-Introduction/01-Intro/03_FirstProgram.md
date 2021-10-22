@@ -20,6 +20,7 @@ or
 
 ## Example
 
+
   ```golang
 package main
 
@@ -31,3 +32,7 @@ func main() {
     fmt.Println("Hello, Go Training!")
 }
  ```
+
+## Run In Playground
+
+[Run code in Go Playground](https://play.golang.org/p/2Pw61eHoF02)

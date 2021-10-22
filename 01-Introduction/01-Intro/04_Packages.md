@@ -34,5 +34,40 @@ func do() {
 
 ## Pro Tip
 
-There is a function named "Init()" which is executed if you import a package.
+There is a function named "init()" which is executed if you import a package.
 E.g. the SQL Drivers are imported in this way.
+
+
+## Run in Playground
+For example ([Run code](https://play.golang.org/p/LO1l8Novpju)):
+
+
+## go mod is powerful
+
+You can use a package that does not exists in a repository
+```golang
+package main
+
+import (
+  "prodyna.com/go-lib/print"
+)
+
+func main() {
+  print.PrintHello()
+}
+
+```
+
+by simply replacing the required package by the real package
+
+```
+module dev.azure.com/frankratschinski/frankratschinski/_git/go-client
+go 1.16
+replace (
+  prodyna.com/go-lib v1.0.1 => dev.azure.com/frankratschinski/frankratschinski/_git/go-lib v1.0.1-0.20211013100434-eeb0c549d957
+)
+
+require (
+  prodyna.com/go-lib v1.0.1
+)
+```

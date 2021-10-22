@@ -36,3 +36,32 @@ var value int
 value = 33
 
 ```
+
+
+# Pro Tip
+
+a var definition can lead to poor performance because the desired value is 
+somewhere in the memory and not in the processors register...
+
+This litte example is slow, because the variable n is stored in memory and no
+processor register is used for this simple function...
+
+```golang
+package main
+
+func main() {
+       f([]int{1,1})
+}
+
+var n =0
+
+func f(s []int) int {
+  n = 0
+  for _,v := range s {
+    n +=v
+  }
+  return n
+}
+```
+
+You can use https://godbolt.org/ if you want to understand what assemby code the go compiler is producing
