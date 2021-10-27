@@ -2,7 +2,7 @@
 
 Go has a builtin testing library that covers most of the test functionally needed in daily programming.
 
-There is a library 'github.com/stretchr/testify' that extends the buitin testing functionaly with assert statements very similar to JUnit.
+There is a library [github.com/stretchr/testify](https://github.com/stretchr/testify) that extends the buitin testing functionaly with assert statements very similar to JUnit.
 
 ## Visibility in Go
 
@@ -61,6 +61,35 @@ func TestFact(t *testing) {
 ```go test - run ''```
 ### With coverage
 ```go test -coverprofile cp.out```
+
+### View coverage results
+
+In order to see the coverage `per function` of your project, run:
+
+```
+go tool cover -func coverage.out
+```
+
+the output will look like the following:
+
+```
+github.com/myorg/jetstarter-service/adapters/jfs_adapter.go:20:                 NewJFSAdapter                 100.0%
+github.com/myorg/jetstarter-service/adapters/jfs_adapter.go:27:                 InitiateJFS                   0.0%
+github.com/myorg/jetstarter-service/adapters/scheduling_service_adapter.go:22:	NewSchedulingServiceAdapter   100.0%
+github.com/myorg/jetstarter-service/adapters/scheduling_service_adapter.go:29:	CreateSchedulingJob           82.4%
+github.com/myorg/jetstarter-service/adapters/scheduling_service_adapter.go:56:	GetSchedulingJob			  82.4%
+github.com/myorg/jetstarter-service/ports/handler.go:280:                       noAuthorizationHeader         0.0%
+github.com/myorg/jetstarter-service/ports/handler.go:289:                       internalServerErrorResponse	  100.0%
+                                                       total:                   (statements)                  62.4%
+```
+
+If you want to see the results in an `html` output in your browser, run the following command:
+
+```
+go tool cover -html coverage.out
+```
+
+A browser window will open and display the covered and uncovered lines of every file.
 
 ### Running only a subset of the tests
 ```go test -run Integration```

@@ -110,32 +110,6 @@ func printSlice(s []string) {
 }
 ```
 
-##  Range
-
-The `range` form of the `for` loop iterates over a slice or map.
-
-When ranging over a slice, two values are returned for each iteration. The first is the index, and the second is a copy of the element at that index.
-
-For example ([Run code](https://play.golang.org/p/MoSqZXcLtkl)):
-```go
-package main
-
-import "fmt"
-
-var names = []string{"Frank", "Martin", "Chris"}
-
-func main() {
-	for i, v := range names {
-		fmt.Printf("%d. %s writes Go!\n", (i + 1), v)
-	}
-
-	// Print the names again but omit the index
-	for _, v := range names {
-		fmt.Printf("%s writes Go!\n", v)
-	}
-}
-```
-
 ## Slices of slices
 
 Slices can contain any type, including other slices. It can be seen as an equivalent of multidimentional arrays in Java.
