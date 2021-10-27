@@ -25,9 +25,9 @@ Go has signed and unsigned integer types with the size of 8,16,32 and 64 bits.
 |Name |Range  | 
 --- | --- 
 | uint8     | 0 to 255     |
-| uint16    | 0 to 216 -1 |
-| uint32    | 0 to 232 -1 |
-| uint64    |0 to 264 -1 |
+| uint16    | 0 to 2^16 -1 |
+| uint32    | 0 to 2^32 -1 |
+| uint64    |0 to 2^64 -1 |
 
 
 ### Platform Dependent Unsigned  Integer
@@ -42,4 +42,4 @@ Go has signed and unsigned integer types with the size of 8,16,32 and 64 bits.
 
 ## bytes
 
-Go has an alias named "byte" witch is of the type "uint8"
+Go has an alias named "byte" which is of the type "uint8"
