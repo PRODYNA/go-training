@@ -23,7 +23,7 @@ s := "test"
 
 p := &s
 
-fmt.Println(*s)
+fmt.Println(*p)
 ```
 
 ## Pass a pointer to a function
