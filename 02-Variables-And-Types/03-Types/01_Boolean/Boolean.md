@@ -16,7 +16,7 @@ if b {
 
 ## default value
 ```golang
-b := true
+var b bool
 
 if b {
 	fmt.Println("So true")
