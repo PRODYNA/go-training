@@ -58,7 +58,7 @@ func CreatePerson(name string) Person {
 ```
 
 
-# Excercise
+# Exercise
 
 Enhance the struct 'Person' with the Address and fill the values, so the test runs properly.
 

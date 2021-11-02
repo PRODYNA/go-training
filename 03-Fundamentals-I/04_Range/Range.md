@@ -4,7 +4,7 @@ The `range` form of the `for` loop iterates over a slice or map.
 
 ## Range over a slice
 
-When ranging over a slice, two values are returned for each iteration. The first is the index, and the second is a copy of the element at that index.
+When ranging over a slice, two values are returned for each iteration. The first is the `index`, and the second is a copy of the element at that index.
 
 For example ([Run code](https://play.golang.org/p/MoSqZXcLtkl)):
 ```go
