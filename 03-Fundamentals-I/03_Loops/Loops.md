@@ -16,7 +16,7 @@ statement.
 
 The loop will stop iterating once the boolean condition evaluates to `false`.
 
-
+For example ([Run code](https://play.golang.org/p/Yh8jRtIdbuT)):
 ```golang
 package main
 
@@ -32,10 +32,12 @@ func main() {
 ```
 
 **Note:** Unlike other languages like C, Java, or JavaScript there are no parentheses
-surrounding the three components of the `for` statement and the braces `{`}` are
+surrounding the three components of the `for` statement and the braces `{}` are
 always required.
 
 The init and post statements are *optional*.
+
+For example ([Run code](https://play.golang.org/p/iLbpPmG0di5)):
 
 ```golang
 package main
@@ -56,6 +58,8 @@ func main() {
 ## Where is "while" or "Do-while"?
 
 There is no `while` or `do - while`. Go has only `for` which can act like `while` or `do - while`.
+
+For example ([Run code](https://play.golang.org/p/-8ihiw0pxlX)):
 
 ```golang
 package main

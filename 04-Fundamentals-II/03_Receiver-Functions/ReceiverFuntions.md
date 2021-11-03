@@ -48,7 +48,7 @@ func (p *Point) SetX(x int) {
 }
 ```
 
-# Excercise
+# Exercise
 
 Correct the Test for setting the name of the struct with a receiver function.
 

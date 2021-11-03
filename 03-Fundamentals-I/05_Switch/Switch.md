@@ -30,3 +30,38 @@ func main() {
 ```
 
 Switch cases evaluate cases from top to bottom, stopping when a case succeeds.
+
+Switch statement can accept variables as values. For example ([Run code](https://play.golang.org/p/0bqrdbGQTKl)):
+
+```golang
+package main
+
+import (
+	"fmt"
+	"runtime"
+)
+
+var linuxVar = "linux"
+
+func main() {
+
+	switcher(linuxVar)
+}
+
+// switcher is just a function which performs
+// just a switch statement and prints accordingly
+func switcher(linuxArchitecture string) {
+
+	fmt.Print("Go runs on ")
+	switch os := runtime.GOOS; os {
+	case "darwin":
+		fmt.Println("OS X.")
+	case linuxArchitecture:
+		fmt.Println("Linux.")
+	default:
+		// freebsd, openbsd,
+		// plan9, windows...
+		fmt.Printf("%s.\n", os)
+	}
+}
+```
