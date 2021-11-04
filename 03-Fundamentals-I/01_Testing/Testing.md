@@ -46,7 +46,8 @@ import (
 
 func TestFact(t *testing.T) {
   if Fact(12) != 479001600 {
-    t.Fail("Failed for some reason")
+    t.Error("Failed for some reason")
+    t.Fail()
   }
 }
 ```
