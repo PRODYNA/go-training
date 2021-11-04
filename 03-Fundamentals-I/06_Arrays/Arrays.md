@@ -145,7 +145,7 @@ func main() {
 ```
 
 
-## Remove value in the middle
+## Remove value in the middle of a slice
 
 For example ([Run code](https://play.golang.org/p/cQDP38zVhNy)):
 ```go
@@ -166,4 +166,26 @@ func main() {
 	fmt.Println(s) // [1 2 4 5]
 
 }
+```
+
+## Add value in the middle of a slice
+
+For example ([Run code](https://play.golang.org/p/mLNNzXcOQZG)):
+```go
+package main
+
+import (
+	"fmt"
+)
+
+func main() {
+        i := 2
+        a := []string{"A","B","C"}
+
+	a = append(a[:i+1], a[i:]...)
+        a[i] = "I"
+		
+	fmt.Println(a)		
+}
+
 ```
