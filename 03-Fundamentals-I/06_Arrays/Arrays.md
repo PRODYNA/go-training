@@ -143,3 +143,27 @@ func main() {
 	}
 }
 ```
+
+
+## Remove value in the middle
+
+For example ([Run code](https://play.golang.org/p/cQDP38zVhNy)):
+```go
+package main
+
+import "fmt"
+
+func main() {
+	
+	
+	s := []string{"1", "2", "3", "4", "5"}
+	r := 2
+
+	copy(s[r:], s[r+1:]) 
+	s[len(s)-1] = ""    
+	s = s[:len(s)-1]    
+
+	fmt.Println(s) // [1 2 4 5]
+
+}
+```
