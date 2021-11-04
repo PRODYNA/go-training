@@ -44,7 +44,7 @@ import (
  "testing"
 )
 
-func TestFact(t *testing) {
+func TestFact(t *testing.T) {
   if Fact(12) != 479001600 {
     t.Fail("Failed for some reason")
   }
@@ -109,7 +109,7 @@ import (
  "github.com/stretchr/testify/assert"
 )
 
-func TestFact(t *testing) {
+func TestFact(t *testing.T) {
   asssert.Equals(t, 479001600, Fact(12))
 }
 ```
