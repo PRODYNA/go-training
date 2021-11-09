@@ -61,7 +61,7 @@ var x interface{}
 
 x = "a string"
 
-fmt.Printn(x)
+fmt.Println(x)
 
 ```
 
