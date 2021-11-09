@@ -10,7 +10,7 @@ type Point struct {
 }
 
 func (p Point) GetX() int {
-	retun p.X
+	return p.X
 }
 ```
 
