@@ -1,6 +1,6 @@
 # Recover
 
-A panic can be catched within a deferred function and with the function
+A panic can be caught within a deferred function and with the function
 recover(), the panic can be resolved or re-panic'd.
 
 
