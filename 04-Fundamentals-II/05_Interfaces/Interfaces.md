@@ -42,7 +42,7 @@ In combination with type switch, a generic-like behavior can be implemented.
 Please remember: value.(type) is a cast to the type "type"
 
 ```golang
-func DoStuff(value interface) {
+func DoStuff(value interface{}) {
 
     switch t := value.(type) {
         case int64: {
@@ -51,6 +51,18 @@ func DoStuff(value interface) {
     }
     
 }
+```
+
+# Interface as type
+
+```golang
+
+var x interface{}
+
+x = "a string"
+
+fmt.Printn(x)
+
 ```
 
 
