@@ -95,7 +95,7 @@ A browser window will open and display the covered and uncovered lines of every 
 ### Running only a subset of the tests
 ```go test -run Integration```
 
-This would only call tests that are named IntegrationXXXTest
+This would only call tests that are named TestIntegration_FunctionName
 
 ## Using testify
 
